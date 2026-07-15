@@ -44,7 +44,7 @@ EREventRecorderSettings class >> url: aZnUrl [
 EREventRecorderSettings class >> urlSettingsOn: aBuilder [ 
 	<systemsettings>	
 	(aBuilder setting: #stringUrl)
-		parent: #gt;
+		parent: #tools;
 		target: self;
 		description: 'The default URL for the Event Recorder server.';
 		label: 'Event Recorder URL address'
